@@ -12,6 +12,8 @@
   margin-top: 15px;
   margin-bottom: 15px;
 
+  user-select: none;
+
   overflow: hidden;
 
   background-color: #f0f2f6;
