@@ -7,7 +7,7 @@
 }
 
 .event_in_the_fest_box{
-  height: 300px;
+  height: 330px;
 
   margin-top: 15px;
   margin-bottom: 15px;
@@ -22,20 +22,98 @@
 }
 
 .event_in_the_fest_box_icon{
-
+  height: 85px;
 }
 
 .event_in_the_fest_box_name{
+  height: 60px;
 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
+
+  padding-left: 20px;
+}
+
+.event_in_the_fest_box_name h5{
+  color: #18181c;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .event_in_the_fest_box_description{
+  height: 145px;
+  padding-left: 20px;
 
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .event_in_the_fest_box_link{
-  
+  height: 40px;
+  padding-left: 20px;
 }
+
+.event_in_the_fest_box_link a {
+  color: #f50136;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box_icon i {
+  margin-top: -10px;
+  padding: 0 15px;
+  font-size: 72px;
+  color: #f50136;
+  vertical-align: middle;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 15px;
+  line-height: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box:hover {
+  -webkit-box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
+  background-color: #f50136;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box:hover .event_in_the_fest_box_icon i {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box:hover .event_in_the_fest_box_name h5 {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box:hover .event_in_the_fest_box_description{
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box:hover .event_in_the_fest_box_link a {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
