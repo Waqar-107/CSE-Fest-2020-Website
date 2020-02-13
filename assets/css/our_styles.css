@@ -1,0 +1,98 @@
+.event_in_the_fest_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.event_in_the_fest_box{
+  height: 300px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  overflow: hidden;
+
+  background-color: #f0f2f6;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.event_in_the_fest_box_icon{
+
+}
+
+.event_in_the_fest_box_name{
+
+}
+
+.event_in_the_fest_box_description{
+
+}
+
+.event_in_the_fest_box_link{
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event_in_the_fest_container{
+    justify-content: center;
+  }
+
+  .event_in_the_fest_box {
+    /* background-color: red; */
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .event_in_the_fest_container{
+    justify-content: center;
+  }
+
+  .event_in_the_fest_box {
+    /* background: green; */
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .event_in_the_fest_container{
+    justify-content: space-between;
+  }
+
+  .event_in_the_fest_box {
+    /* background: blue; */
+    width: 48%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .event_in_the_fest_container{
+    justify-content: space-around;
+  }
+
+  .event_in_the_fest_box {
+    /* background: orange; */
+    width: 300px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .event_in_the_fest_container{
+    justify-content: space-between;
+  }
+
+  .event_in_the_fest_box {
+    /* background: pink; */
+    width: 255px;
+  }
+}
