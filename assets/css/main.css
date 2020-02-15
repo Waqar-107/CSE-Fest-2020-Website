@@ -3191,3 +3191,46 @@ textarea.form-control {
   font-size: 14px;
   font-weight: 400;
 }
+
+.myFooter {
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .myFooter {
+    justify-content: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .myFooter {
+    justify-content: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .myFooter {
+    justify-content: flex-end;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .myFooter {
+    justify-content: flex-end;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .myFooter {
+    justify-content: flex-end;
+  }
+}
