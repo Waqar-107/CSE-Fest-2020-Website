@@ -3208,12 +3208,22 @@ textarea.form-control {
   .myFooter {
     justify-content: center;
   }
+
+  .logo{
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .myFooter {
     justify-content: center;
+  }
+
+  .logo{
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -3222,6 +3232,11 @@ textarea.form-control {
   .myFooter {
     justify-content: flex-end;
   }
+
+  .logo{
+    width: 80px;
+    height: 80px;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -3229,11 +3244,21 @@ textarea.form-control {
   .myFooter {
     justify-content: flex-end;
   }
+
+  .logo{
+    width: 80px;
+    height: 80px;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .myFooter {
     justify-content: flex-end;
+  }
+
+  .logo{
+    width: 100px;
+    height: 100px;
   }
 }
