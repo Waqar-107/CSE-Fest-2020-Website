@@ -19,8 +19,9 @@
 /*  PRE LOADING
 =============================================== */
 'use strict';
+// instead of 500, gave 100 here - 1505107
 $(window).load(function () {
-    $('.loader').delay(500).fadeOut('slow');
+    $('.loader').delay(100).fadeOut('slow');
 });
 
 
