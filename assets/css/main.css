@@ -2721,14 +2721,14 @@ Cover
 .table.event_calender tbody td.buy_link a {
   text-transform: capitalize;
   font-weight: 600;
-  color: #f50136;
+  color: transparent;
   text-decoration: underline;
   line-height: 24px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 .table.event_calender tbody td.buy_link a:hover {
-  color: #18181c;
+  color: transparent;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -3202,14 +3202,23 @@ textarea.form-control {
   align-content: center;
 }
 
-.logo{
-  width: 100px;
-  height: 100px;
+.logo {
+  width: 80px;
+  height: 80px;
 }
 
-.footer_logo{
+.footer_logo {
   width: 200px;
   height: 200px;
+}
+
+.calender_logo {
+  font-size: 50px;
+  border-radius: 4px;
+  display: block;
+  /* max-width: 70px; */
+
+  color: #f50136;
 }
 
 /* Extra small devices (phones, 600px and down) */
