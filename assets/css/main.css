@@ -3207,9 +3207,15 @@ textarea.form-control {
   height: 80px;
 }
 
+.footer_logo_container {
+  width: 100%;
+  height: 300px;
+}
+
 .footer_logo {
-  width: 200px;
-  height: 200px;
+  height: 150%;
+  margin-top: -5%;
+  margin-left: -8%;
 }
 
 .calender_logo {
