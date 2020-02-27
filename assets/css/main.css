@@ -3227,6 +3227,11 @@ textarea.form-control {
   color: #f50136;
 }
 
+.map_container {
+  width: 100%;
+  height: 500px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .myFooter {
