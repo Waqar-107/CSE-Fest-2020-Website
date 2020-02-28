@@ -68,7 +68,7 @@
 }
 
 .event_in_the_fest_box_link a {
-  color: #f50136;
+  color: #9d1f60;
   font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
@@ -80,7 +80,7 @@
   margin-top: -10px;
   padding: 0 15px;
   font-size: 72px;
-  color: #f50136;
+  color: #9d1f60;
   vertical-align: middle;
   border-radius: 4px;
   display: block;
@@ -93,7 +93,7 @@
 .event_in_the_fest_box:hover {
   -webkit-box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
           box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
-  background-color: #f50136;
+  background-color: #9d1f60;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -111,7 +111,7 @@
 }
 
 .event_in_the_fest_box_icon i span{
-  color: #f50136;
+  color: #9d1f60;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -199,5 +199,5 @@
 new color: dark purple- #250048
           light purple- #9d1f60
           
-old color: #f50136
+old color: #9d1f60
 */
