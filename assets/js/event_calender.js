@@ -27,19 +27,19 @@ event_in_fest = [
     link: '"events/treasure_hunt.html"'
   },
 
-  {
-    start_date: '2020/3/20',
+  // {
+  //   start_date: '2020/3/20',
 
-    date_to_show: '20',
-    month_to_show: ' March',
+  //   date_to_show: '20',
+  //   month_to_show: ' March',
 
-    description: 'Game Fest',
-    event_time: '20 March - 21 March',
-    location: 'to be decided',
+  //   description: 'Game Fest',
+  //   event_time: '20 March - 21 March',
+  //   location: 'to be decided',
 
-    imageName: '<i class="calender_logo"><span class="iconify" data-icon="entypo:game-controller" data-inline="false"></span></i>',
-    link: '"events/game_fest.html"'
-  },
+  //   imageName: '<i class="calender_logo"><span class="iconify" data-icon="entypo:game-controller" data-inline="false"></span></i>',
+  //   link: '"events/game_fest.html"'
+  // },
 
   {
     start_date: '2020/3/21',

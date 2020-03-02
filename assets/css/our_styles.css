@@ -187,7 +187,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .event_in_the_fest_container{
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .event_in_the_fest_box {
