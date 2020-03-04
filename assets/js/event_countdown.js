@@ -76,19 +76,24 @@ $(".poster_presentation_countdown")
     );
   });
 
+// ----------------------------------------------
 $(".meme_contest_countdown")
   .countdown("2020/03/10", function (event) {
     $(this).html(
       event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
     );
   });
+// ----------------------------------------------
 
+// ----------------------------------------------
 $(".takla_contest_countdown")
-  .countdown("2020/03/10", function (event) {
+  .countdown("2020/03/07", function (event) {
     $(this).html(
       event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
     );
   });
+// ----------------------------------------------
+
 
 $(".io_games_countdown")
   .countdown("2020/03/10", function (event) {

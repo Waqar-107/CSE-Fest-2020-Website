@@ -1,5 +1,19 @@
 event_in_fest = [
   {
+    start_date: '2020/3/7',
+
+    date_to_show: '7',
+    month_to_show: ' March',
+
+    description: 'Takla Contest',
+    event_time: '7 March',
+    location: '2nd floor, CSE wing, ECE Building',
+
+    imageName: '<i class="icon-sad calender_logo"></i>',
+    link: '"events/takla_contest.html"'
+  },
+
+  {
     start_date: '2020/3/12',
 
     date_to_show: '12',
