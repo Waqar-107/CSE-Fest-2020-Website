@@ -9,7 +9,7 @@ event_in_fest = [
     event_time: '7 March',
     location: '2nd floor, CSE wing, ECE Building',
 
-    imageName: '<i class="icon-sad calender_logo"></i>',
+    imageName: '<i class="icon-sad calendar_logo"></i>',
     link: '"events/takla_contest.html"'
   },
 
@@ -23,7 +23,7 @@ event_in_fest = [
     event_time: '12 March - 13 March',
     location: 'to be decided',
 
-    imageName: '<i class="lnr lnr-laptop calender_logo"></i>',
+    imageName: '<i class="lnr lnr-laptop calendar_logo"></i>',
     link: '"events/hackathon.html"'
   },
 
@@ -37,7 +37,7 @@ event_in_fest = [
     event_time: '19 March',
     location: 'to be decided',
 
-    imageName: '<i class="calender_logo"><span class="iconify" data-icon="mdi:treasure-chest" data-inline="false"></span></i>',
+    imageName: '<i class="calendar_logo"><span class="iconify" data-icon="mdi:treasure-chest" data-inline="false"></span></i>',
     link: '"events/treasure_hunt.html"'
   },
 
@@ -51,7 +51,7 @@ event_in_fest = [
   //   event_time: '20 March - 21 March',
   //   location: 'to be decided',
 
-  //   imageName: '<i class="calender_logo"><span class="iconify" data-icon="entypo:game-controller" data-inline="false"></span></i>',
+  //   imageName: '<i class="calendar_logo"><span class="iconify" data-icon="entypo:game-controller" data-inline="false"></span></i>',
   //   link: '"events/game_fest.html"'
   // },
 
@@ -65,7 +65,7 @@ event_in_fest = [
     event_time: '21 March',
     location: 'to be decided',
 
-    imageName: '<i class="icon-linegraph calender_logo"></i>',
+    imageName: '<i class="icon-linegraph calendar_logo"></i>',
     link: '"events/math_olympiad.html"'
   },
 
@@ -79,7 +79,7 @@ event_in_fest = [
     event_time: '27 March',
     location: 'to be decided',
 
-    imageName: '<i class="lnr lnr-keyboard calender_logo"></i>',
+    imageName: '<i class="lnr lnr-keyboard calendar_logo"></i>',
     link: '"events/iupc.html"'
   },
 
@@ -93,7 +93,7 @@ event_in_fest = [
     event_time: '1 April',
     location: 'to be decided',
 
-    imageName: '<i class="ion-ios-people-outline calender_logo"></i>',
+    imageName: '<i class="ion-ios-people-outline calendar_logo"></i>',
     link: '"events/job_fair.html"'
   },
 
@@ -107,7 +107,7 @@ event_in_fest = [
     event_time: '2 April',
     location: 'to be decided',
 
-    imageName: '<i class="lnr lnr-mic calender_logo"></i>',
+    imageName: '<i class="lnr lnr-mic calendar_logo"></i>',
     link: '"events/grand_cultural.html"'
   },
 ];
@@ -133,6 +133,6 @@ for (let i = 0; i < event_in_fest.length; i++) {
       "<td>" + "<a href=" + event_in_fest[i].link + " class=\"btn btn-primary btn-rounded\">Read More</a>" +
       "</td>" + "</tr>";
 
-    $(".eventCalender").append(htm)
+    $(".eventcalendar").append(htm)
   }
 }

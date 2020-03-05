@@ -2652,68 +2652,68 @@ Cover
 /*  ----------------------------------------------------
 8 tabs
 -------------------------------------------------------- */
-.table.event_calender {
+.table.event_calendar {
   position: relative;
   min-width: 1000px;
 }
-.table.event_calender thead.event_title {
+.table.event_calendar thead.event_title {
   background-color: #9d1f60;
   color: #ffffff;
   border: 0;
 }
-.table.event_calender thead.event_title th {
+.table.event_calendar thead.event_title th {
   vertical-align: bottom;
   border: 0;
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 600;
 }
-.table.event_calender thead.event_title th i {
+.table.event_calendar thead.event_title th i {
   font-size: 32px;
   float: left;
   line-height: 1;
 }
-.table.event_calender thead.event_title th span {
+.table.event_calendar thead.event_title th span {
   margin-left: 10px;
   padding: 3px 0;
   display: inline-block;
 }
-.table.event_calender tbody {
+.table.event_calendar tbody {
   background-color: #f0f2f6;
 }
-.table.event_calender tbody td, .table.event_calender tbody th {
+.table.event_calendar tbody td, .table.event_calendar tbody th {
   padding: 30px 25px;
   border: 0;
   vertical-align: middle;
   text-align: center;
 }
-.table.event_calender tbody td img, .table.event_calender tbody th img {
+.table.event_calendar tbody td img, .table.event_calendar tbody th img {
   border-radius: 4px;
   display: block;
   max-width: 100px;
 }
-.table.event_calender tbody td.event_date {
+.table.event_calendar tbody td.event_date {
   font-weight: 600;
   font-size: 30px;
   color: #000;
 }
-.table.event_calender tbody td.event_date span {
+.table.event_calendar tbody td.event_date span {
   display: block;
   font-weight: 400;
   font-size: 14px;
 }
-.table.event_calender tbody td.event_place h5 {
+.table.event_calendar tbody td.event_place h5 {
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 500;
 }
-.table.event_calender tbody td.event_place h6 {
+.table.event_calendar tbody td.event_place h6 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   margin-bottom: 0;
 }
-.table.event_calender tbody td.buy_link a {
+.table.event_calendar tbody td.buy_link a {
   text-transform: capitalize;
   font-weight: 600;
   color: transparent;
@@ -2722,7 +2722,7 @@ Cover
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
-.table.event_calender tbody td.buy_link a:hover {
+.table.event_calendar tbody td.buy_link a:hover {
   color: transparent;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -3211,7 +3211,7 @@ textarea.form-control {
   height: 100%;
 }
 
-.calender_logo {
+.calendar_logo {
   font-size: 50px;
   border-radius: 4px;
   display: block;
