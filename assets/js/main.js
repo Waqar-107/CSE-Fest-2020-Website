@@ -1,9 +1,3 @@
-/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
 /* ------------------------------------- */
 /*  TABLE OF CONTENTS
  /* ------------------------------------- */
@@ -156,7 +150,7 @@ MAPS
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(lattuide, longtuided),
             map: map,
-            title: 'evento!'
+            title: 'csefest2020!'
         });
     }
 
