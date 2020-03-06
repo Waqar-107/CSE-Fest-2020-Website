@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// done
+// declared
 $(".iupc_countdown")
   .countdown("2020/03/27", function (event) {
     $(this).html(
@@ -10,7 +10,7 @@ $(".iupc_countdown")
 
 
 // ----------------------------------------------
-// done
+// 
 $(".math_olympiad_countdown")
   .countdown("2020/03/21", function (event) {
     $(this).html(
@@ -29,7 +29,7 @@ $(".ai_contest_countdown")
 
 
 // ----------------------------------------------
-// done
+// 
 $(".ctf_countdown")
   .countdown("2020/03/25", function (event) {
     $(this).html(
@@ -40,9 +40,9 @@ $(".ctf_countdown")
 
 
 // ----------------------------------------------
-// done
+// declared
 $(".hackathon_countdown")
-  .countdown("2020/03/12", function (event) {
+  .countdown("2020/04/17", function (event) {
     $(this).html(
       event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
     );
@@ -59,7 +59,7 @@ $(".idea_contest_countdown")
 
 
 // ----------------------------------------------
-// done
+// 
 $(".job_fair_countdown")
   .countdown("2020/04/1", function (event) {
     $(this).html(
@@ -77,6 +77,7 @@ $(".poster_presentation_countdown")
   });
 
 // ----------------------------------------------
+// declared
 $(".meme_contest_countdown")
   .countdown("2020/03/10", function (event) {
     $(this).html(
@@ -86,8 +87,9 @@ $(".meme_contest_countdown")
 // ----------------------------------------------
 
 // ----------------------------------------------
+// declared
 $(".takla_contest_countdown")
-  .countdown("2020/03/07", function (event) {
+  .countdown("2020/03/14", function (event) {
     $(this).html(
       event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
     );
@@ -111,7 +113,7 @@ $(".picture_puzzle_countdown")
 
 
 // ----------------------------------------------
-// done
+// 
 $(".grand_cultural_countdown")
   .countdown("2020/04/2", function (event) {
     $(this).html(
@@ -130,20 +132,9 @@ $(".photography_exhibition_countdown")
 
 
 // ----------------------------------------------
-// done
+// 
 $(".treasure_hunt_countdown")
   .countdown("2020/03/19", function (event) {
-    $(this).html(
-      event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
-    );
-  });
-// ----------------------------------------------
-
-
-// ----------------------------------------------
-// done
-$(".game_fest_countdown")
-  .countdown("2020/03/20", function (event) {
     $(this).html(
       event.strftime('<div>%w <span>Weeks</span></div>  <div>%d <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
     );

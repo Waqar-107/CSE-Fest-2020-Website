@@ -1,12 +1,12 @@
 event_in_fest = [
   {
-    start_date: '2020/3/7',
+    start_date: '2020/3/14',
 
-    date_to_show: '7',
+    date_to_show: '14',
     month_to_show: ' March',
 
     description: 'Takla Contest',
-    event_time: '7 March',
+    event_time: '14 March',
     location: '2nd floor, CSE wing, ECE Building',
 
     imageName: '<i class="icon-sad calendar_logo"></i>',
@@ -14,13 +14,13 @@ event_in_fest = [
   },
 
   {
-    start_date: '2020/3/12',
+    start_date: '2020/4/17',
 
-    date_to_show: '12',
-    month_to_show: ' March',
+    date_to_show: '17',
+    month_to_show: ' Aprill',
 
     description: 'Hackathon',
-    event_time: '12 March - 13 March',
+    event_time: '17 April - 18 April',
     location: 'to be decided',
 
     imageName: '<i class="lnr lnr-laptop calendar_logo"></i>',
