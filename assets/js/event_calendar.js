@@ -41,19 +41,19 @@ event_in_fest = [
     link: '"events/treasure_hunt.html"'
   },
 
-  {
-    start_date: '2020/3/27',
+  // {
+  //   start_date: '2020/3/27',
 
-    date_to_show: '27',
-    month_to_show: ' March',
+  //   date_to_show: '27',
+  //   month_to_show: ' March',
 
-    description: 'IUPC',
-    event_time: '27 March',
-    location: 'ECE Building, BUET',
+  //   description: 'IUPC',
+  //   event_time: '27 March',
+  //   location: 'ECE Building, BUET',
 
-    imageName: '<i class="lnr lnr-keyboard calendar_logo"></i>',
-    link: '"events/iupc.html"'
-  },
+  //   imageName: '<i class="lnr lnr-keyboard calendar_logo"></i>',
+  //   link: '"events/iupc.html"'
+  // },
 
   {
     start_date: '2020/3/28',
