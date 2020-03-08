@@ -56,6 +56,20 @@ event_in_fest = [
   },
 
   {
+    start_date: '2020/3/28',
+
+    date_to_show: '28',
+    month_to_show: ' March',
+
+    description: 'CTF',
+    event_time: '28 March',
+    location: 'ECE Building, BUET',
+
+    imageName: '<i class="icon-lock calendar_logo"></i>',
+    link: '"events/ctf.html"'
+  },
+
+  {
     start_date: '2020/4/1',
 
     date_to_show: '1',
